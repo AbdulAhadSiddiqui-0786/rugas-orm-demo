@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🧾 Rugas ORM Demo
 
 A full-stack Order Management System built as part of an internship assignment. This application allows authenticated users to onboard customers, manage products, place and update orders, and view order statistics.
@@ -254,4 +253,4 @@ Abdul Ahad
 
 📃 License
 This project is for educational and demonstration purposes only.
->>>>>>> 64f6737 (final commit)
+

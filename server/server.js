@@ -7,6 +7,8 @@ import customerRoutes from "./routes/customers.js";
 import productRoutes  from "./routes/products.js";
 import orderRoutes    from "./routes/orders.js";
 import authRoutes     from "./routes/auth.js";
+import pingRoute from './routes/ping.js';
+
 
 dotenv.config();                 
 
@@ -18,8 +20,7 @@ app.use(cors({
   credentials: true
 }));
 app.use(express.json());
-
-
+app.use('/api', pingRoute);
 app.use("/api/auth",     authRoutes);
 app.use("/api/customers", customerRoutes);
 app.use("/api/products",  productRoutes);
